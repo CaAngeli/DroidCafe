@@ -83,9 +83,10 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:autofillHints=""
+        android:imeOptions="actionSend"
         android:ems="10"
         android:hint="@string/enter_phone_hint"
-        android:inputType="text|phone"
+        android:inputType="phone"
         app:layout_constraintBaseline_toBaselineOf="@+id/phone_label"
         app:layout_constraintStart_toEndOf="@+id/phone_label" />
 
